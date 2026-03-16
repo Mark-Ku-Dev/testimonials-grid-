@@ -1,12 +1,66 @@
 * {
-  box-sizing: border;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* -----------
+Base Styles
+----------- */
 body {
   font-family: "Barlow Semi Condensed";
   background-color: hsl(214, 17%, 92%);
+}
+
+/* -------
+Layout
+------- */
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 60px 30px;
+}
+
+/* -------
+Components
+----------- */
+
+.card {
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.card--1 {
+  background-color: #733ec8;
+}
+
+.card--2 {
+  background-color: #48556b;
+}
+.card--3 {
+}
+
+.card--4 {
+  background-color: #191f2d;
+}
+
+.card--5,
+.card--3 {
+  background-color: #ffffff;
+}
+
+/* -------
+Utilities
+----------- */
+
+.text-dark {
+  color: #505560;
+}
+
+.text-light {
+  color: #fff2ff;
 }
 
 /* Tablet */
