@@ -8,3 +8,11 @@ body {
   font-family: "Barlow Semi Condensed";
   background-color: hsl(214, 17%, 92%);
 }
+
+/* Tablet */
+@media (min-width: 768px) {
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+}
